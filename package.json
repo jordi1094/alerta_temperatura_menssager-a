@@ -1,4 +1,12 @@
 {
+  "type": "module",
+  "name": "alerta_temperatura_menssageria",
+  "version": "1.0.0",
+  "description": "Es un sistema de notificación para la calefacción de casa, el sensor DHT22 de la raspberripi hace una lectura cada determinado tiempo entonces si la temperatura supera lo establecido, te avisará de la temperatura el bot por telegram..",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "node-dht-sensor": "^0.4.3",
     "node-telegram-bot-api": "^0.66.0"
